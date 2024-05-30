@@ -18,9 +18,8 @@ def run_length_decode(encoded_text):
         decoded_text += char * count
     return decoded_text
 
-# Example Usage
 original_text = "AAAABBBCCDAA"
 encoded_text = run_length_encode(original_text)
-print("Encoded:", encoded_text)
+print("Encoded text:", encoded_text)
 decoded_text = run_length_decode(encoded_text)
-print("Decoded:", decoded_text)
+print("Decoded text:", decoded_text)
